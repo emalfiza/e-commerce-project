@@ -1,6 +1,6 @@
 language: python
 python:
-- "3.7.7"
+    - "3.7.7"
 install: "pip3 install -r requirements.txt"
 script:
-- SECRET_KEY="noworries" python3 manage.py test
+- SECRET_KEY="whatever" python3 manage.py test
